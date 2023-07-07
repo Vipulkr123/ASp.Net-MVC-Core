@@ -1,0 +1,101 @@
+﻿@model IEnumerable<DemoModels.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Employee List</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New</a>
+</p>
+<table class="table">
+    <thead class="table-bordered table-striped table-hover">
+        <tr class="text-center table-dark">
+            <th>
+                <b>#</b>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DOB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr class="text-center">
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { Id = item.Id }, htmlAttributes: new{@class = "btn btn-warning"}) |
+                    @Html.ActionLink("Details", "Details", new { Id = item.Id }, htmlAttributes: new{@class = "btn btn-info"}) |
+                    <button class="btn btn-danger delete-Item" data-id="@item.Id">Delete</button>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $(document).on("click", ".delete-Item", function () {
+                Swal.fire({
+                    title: 'Are you sure?',
+                    text: "You won't delete this record?",
+                    icon: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Yes, delete it!'
+                }).then((result) => {
+                    console.log(result)
+                    if (result.isConfirmed) {
+
+                        $.ajax({
+                            url: "@Url.Content("~/Employees/Delete")",
+                            method: "POST",
+                            data: { id: $(this).data("id") },
+                            success: function (data) {
+                                if (data) {
+                                    Swal.fire(
+                                        'Deleted!',
+                                        'Your record has been deleted.',
+                                        'success'
+                                    )
+                                    location.reload();
+                                }
+                            },
+                            error: function (err) {
+                                Swal.fire(
+                                    'Opps!',
+                                    'Something went wrong!',
+                                    'error'
+                                )
+                            }
+
+                        })
+
+                    }
+                })
+            })
+        })
+    </script>
+
+}

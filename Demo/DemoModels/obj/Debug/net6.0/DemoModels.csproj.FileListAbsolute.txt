@@ -1,0 +1,12 @@
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\bin\Debug\net6.0\DemoModels.deps.json
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\bin\Debug\net6.0\DemoModels.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\bin\Debug\net6.0\DemoModels.pdb
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.csproj.AssemblyReference.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.AssemblyInfoInputs.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.AssemblyInfo.cs
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.csproj.CoreCompileInputs.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\refint\DemoModels.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\DemoModels.pdb
+C:\Users\vipul\Documents\MVC Core\Demo\DemoModels\obj\Debug\net6.0\ref\DemoModels.dll

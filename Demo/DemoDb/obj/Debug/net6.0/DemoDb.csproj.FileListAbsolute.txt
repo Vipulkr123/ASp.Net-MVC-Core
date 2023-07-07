@@ -1,0 +1,17 @@
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoDb.deps.json
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoDb.runtimeconfig.json
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoDb.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoDb.pdb
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoModels.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\bin\Debug\net6.0\DemoModels.pdb
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.csproj.AssemblyReference.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.AssemblyInfoInputs.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.AssemblyInfo.cs
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.csproj.CoreCompileInputs.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.csproj.CopyComplete
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\refint\DemoDb.dll
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.pdb
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\DemoDb.genruntimeconfig.cache
+C:\Users\vipul\Documents\MVC Core\Demo\DemoDb\obj\Debug\net6.0\ref\DemoDb.dll
